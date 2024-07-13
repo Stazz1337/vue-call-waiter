@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Journal Sans New';
+    src: local('Journal Sans New Regular'), local('Journal-Sans-New-Regular'),
+        url('./assets/fonts/JournalSansNew.woff2') format('woff2'),
+        url('./assets/fonts/JournalSansNew.woff') format('woff'),
+        url('./assets/fonts/JournalSansNew.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    font-family: 'Journal Sans New', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #f4f1ed;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 393px;
+    min-height: 100vh;
+}
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #496172;
+    width: 393px;
+    height: 852px;
+    display: flex;
+    flex-direction: column;
+}
